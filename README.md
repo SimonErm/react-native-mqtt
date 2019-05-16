@@ -28,6 +28,7 @@ This library in progress developing, api may change, SSL/TLS non verify
 - Click `RCTMqtt.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). In the `Search Paths` section, look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../../react-native/React` - mark  as `recursive`.
 - Run your project (`Cmd+R`)
 
+- Run `pod install`inside the react-native-mqtt/ios folder
 
 #### Android
 
